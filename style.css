@@ -1,52 +1,5 @@
-.header{
-  display: flex;
-  justify-content: center;
-  background-color: rgb(65, 65, 172);
-  color: white;
-  height: 25px;
-  padding-top: 10px;
-}
-
-.mainsearch{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.title{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-    margin-top: 15px;
-    
-}
-#space{
-  padding: 6px;
-  margin-top: 15px;
-  font-size: 17px;
-  width: 200px;
-  
-} 
-#searchButton{
-  padding: 6px;
-  margin-top: 15px;
-  font-size: 17px;
-  width: 200px;
-}
-
-#searchButton{
-    background-color: rgb(159, 159, 240);
-}
-.box{
-  width: auto;
-  height: 100px;
-  border: 1px solid rgb(131, 130, 130);
-  margin-left: 220px;
-  margin-top:-120px;
-}
-.forecastlist{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 14px;
-  margin-top: 15px;
-  margin-left: 220px;
-
+.weather-card{
+  width: 18%;
+  background-color: #313d4e;
+  padding: 0.5rem;
 }

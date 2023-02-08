@@ -6,10 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
 </head>
 <body>
-    <header class="header"> Weather Dashboard</header>
-    <div class="mainsearch"> 
+    <header >
+        <nav class="navbar navbar-expand-lg flex justify-content-center" style="background: rgb(0,0,185);
+        background: linear-gradient(90deg, rgba(0,0,185,1) 0%, rgba(7,7,93,1) 45%);">
+            <div class="navbar-text text-light fs-2"> Weather Dashboard</div>
+          </nav>
+    </header>
+    <div class="container-fluid"> 
+        <div class="row">
+            <div class="col-3">
+                <div class="fs-4 fw-bold"> Search for a City</div>
+                <br>
+                <input type="search" id="form1" class="form-control" />
+                <br>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button">search</button>~
+                  </div>
+                  <hr>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-secondary" type="button">Atlanta</button>
+                  </div>
+            </div>
+            <div class="col-8">
+                <div class="border border-secondary p-2 mt-2">
+                    <div class="fw-bold fs-3 text-left"> Atlanta (2/7/2023)</div>
+                    <div class="mt-2">Temp:</div>
+                    <div class="mt-2">Wind:</div>
+                    <div class="my-2">Humidity:</div>
+
+                </div>
+                <div class="fw-bold fs-4 mt-2">5-Day Forecast</div>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="border text-light weather-card"> 
+                        <div> Date:2/7/2023</div>
+                        <div> <img src="http://openweathermap.org/img/w/01d.png"/></div>
+                        <div> Temp:63.55 F</div>
+                        <div> Wind:3.74 MPH</div>
+                        <div> Humidity:60%</div>
+                    </div>
+                    <div class="border text-light weather-card"> 
+                        <div> Date:3/7/2023</div>
+                        <div><img src="http://openweathermap.org/img/w/01d.png"/></div>
+                        <div> Temp:</div>
+                        <div> Wind:</div>
+                        <div> Humidity:</div>
+                    </div>
+                    <div class="border text-light weather-card"> 
+                        <div> Date:4/7/2023</div>
+                        <div> <img src="http://openweathermap.org/img/w/01d.png"/></div>
+                        <div> Temp:</div>
+                        <div> Wind:</div>
+                        <div> Humidity:</div>
+                    </div>
+                    <div class="border text-light weather-card"> 
+                        <div> Date:5/72023</div>
+                        <div> <img src="http://openweathermap.org/img/w/01d.png"/></div>
+                        <div> Temp:</div>
+                        <div> Wind:</div>
+                        <div> Humidity:</div>
+                    </div>
+                    <div class="border text-light weather-card"> 
+                        <div> Date:6/7/2023</div>
+                        <div> Temp:</div>
+                        <div><img src="http://openweathermap.org/img/w/02n.png"/></div>
+                        <div> Temp:</div>
+                        <div> Wind:</div>
+                        <div> Humidity:</div>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+            
+        </div>
+   
+      
+    <!-- <div class="mainsearch"> 
         <b class="title">Search for a City</b>
         <input type="text" id="space" placeholder="Search..">
         <button id="searchButton"> Search</button>
@@ -20,10 +98,11 @@
        <b> 5-Day Forecast: </b> 
     </div>
     <section class="forecastspace">
-        
-    </section>
 
+    </section> -->
+     
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
