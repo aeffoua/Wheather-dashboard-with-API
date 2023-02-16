@@ -71,7 +71,7 @@ function showWeather(data) {
 function dayWeather(payload) {
     let template = `
     <div> Date: ${payload.date}</div>
-    <div> <img src="http://openweathermap.org/img/w/${payload.icon}.png"/></div>
+    <div> <img src="https://openweathermap.org/img/w/${payload.icon}.png"/></div>
     <div> Temp: ${payload.temp} F</div>
     <div> Wind: ${payload.wind} MPH</div>
     <div> Humidity: ${payload.humidity} %</div>
